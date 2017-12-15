@@ -1,6 +1,6 @@
 [
   {
-    "name"              : "node-app",
+    "name"              : "Bitsign Federation",
     "script"            : "app.js",
     "log_date_format"   : "YYYY-MM-DD HH:mm Z",
     "merge_logs"        : false,
@@ -11,14 +11,15 @@
     "env":
     {
       "NODE_ENV"        : "production",
-      "RPC_HOST"        : "localhost",
-      "RPC_PORT"        : "8545",
+      "RPC_HOST"        : "10.136.23.93",
+      "RPC_PORT"        : "8646",
       "LISTENING_PORT"  : "30303",
-      "INSTANCE_NAME"   : "",
-      "CONTACT_DETAILS" : "",
-      "WS_SERVER"       : "wss://rpc.ethstats.net",
-      "WS_SECRET"       : "see http://forum.ethereum.org/discussion/2112/how-to-add-yourself-to-the-stats-dashboard-its-not-automatic",
-      "VERBOSITY"       : 2
+      "INSTANCE_NAME"   : "Bitsign Federation",
+      "CONTACT_DETAILS" : "info@bitsign.io",
+      "WS_SERVER"       : "wss://10.136.23.93",
+      "WS_SECRET"       : "**",
+      "VERBOSITY"       : 3
     }
   }
 ]
+
