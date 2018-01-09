@@ -1,6 +1,6 @@
 [
   {
-    "name"              : "Bitsign Federation",
+    "name"              : "<CHANGE_ME>",
     "script"            : "app.js",
     "log_date_format"   : "YYYY-MM-DD HH:mm Z",
     "merge_logs"        : false,
@@ -11,15 +11,14 @@
     "env":
     {
       "NODE_ENV"        : "production",
-      "RPC_HOST"        : "10.136.23.93",
-      "RPC_PORT"        : "8646",
+      "RPC_HOST"        : "127.0.0.1",//<CHANGE TO IP BINDED TO NODE>
+      "RPC_PORT"        : "8545",//<CHANGE TO PORT BINDED TO NODE>
       "LISTENING_PORT"  : "30303",
-      "INSTANCE_NAME"   : "Bitsign Federation",
-      "CONTACT_DETAILS" : "info@bitsign.io",
-      "WS_SERVER"       : "wss://10.136.23.93",
-      "WS_SECRET"       : "**",
-      "VERBOSITY"       : 3
+      "INSTANCE_NAME"   : "<CHANGE_ME>",
+      "CONTACT_DETAILS" : "info@cryptologic.io",
+      "WS_SERVER"       : "wss://159.203.176.160",//DO NOT MODIFY
+      "WS_SECRET"       : "eth-net-stats-has-a-secret",
+      "VERBOSITY"       : 2
     }
   }
 ]
-
