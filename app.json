@@ -16,7 +16,7 @@
       "LISTENING_PORT"  : "30303",
       "INSTANCE_NAME"   : "federation-node-xxyy",
       "CONTACT_DETAILS" : "info@cryptologic.io",
-      "WS_SERVER"       : "wss://159.203.176.160",//DO NOT MODIFY
+      "WS_SERVER"       : "ws://159.203.176.160:3000",//DO NOT MODIFY
       "WS_SECRET"       : "eth-net-stats-has-a-secret",
       "VERBOSITY"       : 2
     }
